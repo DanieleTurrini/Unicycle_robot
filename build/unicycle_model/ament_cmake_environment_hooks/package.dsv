@@ -1,0 +1,4 @@
+source;share/unicycle_model/local_setup.bash
+source;share/unicycle_model/local_setup.dsv
+source;share/unicycle_model/local_setup.sh
+source;share/unicycle_model/local_setup.zsh

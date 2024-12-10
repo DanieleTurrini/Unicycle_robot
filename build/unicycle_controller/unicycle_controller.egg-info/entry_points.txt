@@ -1,0 +1,6 @@
+[console_scripts]
+TrajectoryVisualizer = unicycle_controller.TrajectoryVisualizer:main
+TrajectoryVisualizerGazebo = unicycle_controller.TrajectoryVisualizerGazebo:main
+path_follow = unicycle_controller.path_follow:main
+pose_subscriber = unicycle_controller.pose_subscriber:main
+

@@ -1,0 +1,19 @@
+[1.990s] Invoking command in '/home/daniele/ros2_ws/build/unicycle_controller': MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility PYTHONPATH=/home/daniele/ros2_ws/build/unicycle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniele/ros2_ws/build/unicycle_controller/build --no-deps symlink_data
+[2.542s] running develop
+[2.901s] running egg_info
+[2.902s] writing unicycle_controller.egg-info/PKG-INFO
+[2.902s] writing dependency_links to unicycle_controller.egg-info/dependency_links.txt
+[2.902s] writing entry points to unicycle_controller.egg-info/entry_points.txt
+[2.903s] writing requirements to unicycle_controller.egg-info/requires.txt
+[2.904s] writing top-level names to unicycle_controller.egg-info/top_level.txt
+[2.907s] reading manifest file 'unicycle_controller.egg-info/SOURCES.txt'
+[2.909s] writing manifest file 'unicycle_controller.egg-info/SOURCES.txt'
+[2.912s] running build_ext
+[2.912s] Creating /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle-controller.egg-link (link to .)
+[2.913s] Installing TrajectoryVisualizer script to /home/daniele/ros2_ws/install/unicycle_controller/lib/unicycle_controller
+[2.916s] Installing path_follow = unicycle_controller.path_follow:mainTrajectoryVisualizerGazebo script to /home/daniele/ros2_ws/install/unicycle_controller/lib/unicycle_controller
+[2.916s] Installing pose_subscriber script to /home/daniele/ros2_ws/install/unicycle_controller/lib/unicycle_controller
+[2.916s] 
+[2.917s] Installed /home/daniele/ros2_ws/build/unicycle_controller
+[2.917s] running symlink_data
+[2.975s] Invoked command in '/home/daniele/ros2_ws/build/unicycle_controller' returned '0': MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility PYTHONPATH=/home/daniele/ros2_ws/build/unicycle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniele/ros2_ws/build/unicycle_controller/build --no-deps symlink_data

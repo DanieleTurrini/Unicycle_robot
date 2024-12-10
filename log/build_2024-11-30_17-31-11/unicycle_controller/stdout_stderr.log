@@ -1,0 +1,23 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating unicycle_controller.egg-info
+writing unicycle_controller.egg-info/PKG-INFO
+writing dependency_links to unicycle_controller.egg-info/dependency_links.txt
+writing entry points to unicycle_controller.egg-info/entry_points.txt
+writing requirements to unicycle_controller.egg-info/requires.txt
+writing top-level names to unicycle_controller.egg-info/top_level.txt
+writing manifest file 'unicycle_controller.egg-info/SOURCES.txt'
+reading manifest file 'unicycle_controller.egg-info/SOURCES.txt'
+writing manifest file 'unicycle_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle-controller.egg-link (link to .)
+
+Installed /home/daniele/ros2_ws/build/unicycle_controller
+running symlink_data
+creating /home/daniele/ros2_ws/install/unicycle_controller/share/ament_index
+creating /home/daniele/ros2_ws/install/unicycle_controller/share/ament_index/resource_index
+creating /home/daniele/ros2_ws/install/unicycle_controller/share/ament_index/resource_index/packages
+symbolically linking /home/daniele/ros2_ws/build/unicycle_controller/resource/unicycle_controller -> /home/daniele/ros2_ws/install/unicycle_controller/share/ament_index/resource_index/packages
+symbolically linking /home/daniele/ros2_ws/build/unicycle_controller/package.xml -> /home/daniele/ros2_ws/install/unicycle_controller/share/unicycle_controller

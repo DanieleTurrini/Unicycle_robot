@@ -1,0 +1,32 @@
+[1.221s] Invoking command in '/home/daniele/ros2_ws/build/unicycle_controller': MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility PYTHONPATH=/home/daniele/ros2_ws/build/unicycle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/daniele/ros2_ws/build/unicycle_controller/build
+[1.689s] running develop
+[1.980s] Removing /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle-controller.egg-link (link to .)
+[2.027s] Invoked command in '/home/daniele/ros2_ws/build/unicycle_controller' returned '0': MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility PYTHONPATH=/home/daniele/ros2_ws/build/unicycle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/daniele/ros2_ws/build/unicycle_controller/build
+[2.028s] Invoking command in '/home/daniele/ros2_ws/src/unicycle_controller': MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility PYTHONPATH=/home/daniele/ros2_ws/build/unicycle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unicycle_controller build --build-base /home/daniele/ros2_ws/build/unicycle_controller/build install --record /home/daniele/ros2_ws/build/unicycle_controller/install.log --single-version-externally-managed install_data --force
+[2.447s] running egg_info
+[2.448s] writing ../../build/unicycle_controller/unicycle_controller.egg-info/PKG-INFO
+[2.450s] writing dependency_links to ../../build/unicycle_controller/unicycle_controller.egg-info/dependency_links.txt
+[2.450s] writing entry points to ../../build/unicycle_controller/unicycle_controller.egg-info/entry_points.txt
+[2.450s] writing requirements to ../../build/unicycle_controller/unicycle_controller.egg-info/requires.txt
+[2.452s] writing top-level names to ../../build/unicycle_controller/unicycle_controller.egg-info/top_level.txt
+[2.454s] reading manifest file '../../build/unicycle_controller/unicycle_controller.egg-info/SOURCES.txt'
+[2.455s] writing manifest file '../../build/unicycle_controller/unicycle_controller.egg-info/SOURCES.txt'
+[2.456s] running build
+[2.456s] running build_py
+[2.457s] creating /home/daniele/ros2_ws/build/unicycle_controller/build
+[2.457s] creating /home/daniele/ros2_ws/build/unicycle_controller/build/lib
+[2.457s] creating /home/daniele/ros2_ws/build/unicycle_controller/build/lib/unicycle_controller
+[2.459s] copying unicycle_controller/__init__.py -> /home/daniele/ros2_ws/build/unicycle_controller/build/lib/unicycle_controller
+[2.459s] running install
+[2.459s] running install_lib
+[2.460s] creating /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller
+[2.460s] copying /home/daniele/ros2_ws/build/unicycle_controller/build/lib/unicycle_controller/__init__.py -> /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller
+[2.460s] byte-compiling /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller/__init__.py to __init__.cpython-310.pyc
+[2.460s] running install_data
+[2.463s] copying resource/unicycle_controller -> /home/daniele/ros2_ws/install/unicycle_controller/share/ament_index/resource_index/packages
+[2.463s] copying package.xml -> /home/daniele/ros2_ws/install/unicycle_controller/share/unicycle_controller
+[2.463s] running install_egg_info
+[2.463s] Copying ../../build/unicycle_controller/unicycle_controller.egg-info to /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller-0.0.0-py3.10.egg-info
+[2.466s] running install_scripts
+[2.498s] writing list of installed files to '/home/daniele/ros2_ws/build/unicycle_controller/install.log'
+[2.539s] Invoked command in '/home/daniele/ros2_ws/src/unicycle_controller' returned '0': MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility PYTHONPATH=/home/daniele/ros2_ws/build/unicycle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unicycle_controller build --build-base /home/daniele/ros2_ws/build/unicycle_controller/build install --record /home/daniele/ros2_ws/build/unicycle_controller/install.log --single-version-externally-managed install_data --force

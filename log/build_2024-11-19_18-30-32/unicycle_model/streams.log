@@ -1,0 +1,82 @@
+[0.016s] Invoking command in '/home/daniele/ros2_ws/build/unicycle_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility /usr/bin/cmake /home/daniele/ros2_ws/src/unicycle_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniele/ros2_ws/install/unicycle_model
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.302s] -- The CXX compiler identification is GNU 11.4.0
+[0.371s] -- Detecting C compiler ABI info
+[0.510s] -- Detecting C compiler ABI info - done
+[0.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.522s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.680s] -- Detecting CXX compiler ABI info - done
+[0.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.691s] -- Detecting CXX compile features
+[0.691s] -- Detecting CXX compile features - done
+[0.695s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.936s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.039s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.083s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.208s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.223s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.225s] -- Added test 'lint_cmake' to check CMake code style
+[1.227s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.235s] -- Added test 'xmllint' to check XML markup files
+[1.237s] -- Configuring done
+[1.247s] -- Generating done
+[1.250s] -- Build files have been written to: /home/daniele/ros2_ws/build/unicycle_model
+[1.262s] Invoked command in '/home/daniele/ros2_ws/build/unicycle_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility /usr/bin/cmake /home/daniele/ros2_ws/src/unicycle_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniele/ros2_ws/install/unicycle_model
+[1.263s] Invoking command in '/home/daniele/ros2_ws/build/unicycle_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility /usr/bin/cmake --build /home/daniele/ros2_ws/build/unicycle_model -- -j4 -l4
+[1.334s] Invoked command in '/home/daniele/ros2_ws/build/unicycle_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility /usr/bin/cmake --build /home/daniele/ros2_ws/build/unicycle_model -- -j4 -l4
+[1.402s] Invoking command in '/home/daniele/ros2_ws/build/unicycle_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility /usr/bin/cmake --install /home/daniele/ros2_ws/build/unicycle_model
+[1.415s] -- Install configuration: ""
+[1.415s] -- Execute custom install script
+[1.416s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/ball_tracker_params_robot.yaml
+[1.432s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/ball_tracker_params_sim.yaml
+[1.450s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/drive_bot.rviz
+[1.467s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/empty.yaml
+[1.484s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/gaz_ros2_ctl_use_sim.yaml
+[1.500s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/gazebo_params.yaml
+[1.515s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/joystick.yaml
+[1.532s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/main.rviz
+[1.549s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/map.rviz
+[1.565s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/mapper_params_online_async.yaml
+[1.580s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/my_controllers.yaml
+[1.598s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/nav2_params.yaml
+[1.614s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/twist_mux.yaml
+[1.632s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/config/view_bot.rviz
+[1.653s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/camera.xacro
+[1.670s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/depth_camera.xacro
+[1.689s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/face.xacro
+[1.710s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/gazebo_control.xacro
+[1.725s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/inertial_macros.xacro
+[1.751s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/lidar.xacro
+[1.766s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/robot.urdf.xacro
+[1.782s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/robot_core.xacro
+[1.798s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/description/ros2_control.xacro
+[1.814s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/ball_tracker.launch.py
+[1.830s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/camera.launch.py
+[1.848s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/joystick.launch.py
+[1.863s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/launch_robot.launch.py
+[1.879s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/launch_sim.launch.py
+[1.895s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/localization_launch.py
+[1.910s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/navigation_launch.py
+[1.926s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/online_async_launch.py
+[1.942s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/rplidar.launch.py
+[1.960s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/launch/rsp.launch.py
+[1.976s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/worlds/empty.world
+[1.991s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/worlds/obstacles.world
+[2.007s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/ament_index/resource_index/package_run_dependencies/unicycle_model
+[2.023s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/ament_index/resource_index/parent_prefix_path/unicycle_model
+[2.041s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/environment/ament_prefix_path.sh
+[2.056s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/environment/ament_prefix_path.dsv
+[2.079s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/environment/path.sh
+[2.096s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/environment/path.dsv
+[2.112s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/local_setup.bash
+[2.128s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/local_setup.sh
+[2.143s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/local_setup.zsh
+[2.161s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/local_setup.dsv
+[2.177s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/package.dsv
+[2.195s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/ament_index/resource_index/packages/unicycle_model
+[2.211s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/cmake/unicycle_modelConfig.cmake
+[2.227s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/cmake/unicycle_modelConfig-version.cmake
+[2.244s] -- Symlinking: /home/daniele/ros2_ws/install/unicycle_model/share/unicycle_model/package.xml
+[2.263s] Invoked command in '/home/daniele/ros2_ws/build/unicycle_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble MESA_EXTENSION_OVERRIDE=  -GL_ARB_buffer_storage   -GL_ARB_multi_draw_indirect   -GL_ARB_texture_buffer_range   -GL_ARB_compute_shader   -GL_ARB_ES3_compatibility /usr/bin/cmake --install /home/daniele/ros2_ws/build/unicycle_model

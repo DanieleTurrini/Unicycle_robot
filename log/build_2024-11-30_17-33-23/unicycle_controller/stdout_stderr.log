@@ -1,0 +1,28 @@
+running develop
+Removing /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle-controller.egg-link (link to .)
+running egg_info
+writing ../../build/unicycle_controller/unicycle_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/unicycle_controller/unicycle_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/unicycle_controller/unicycle_controller.egg-info/entry_points.txt
+writing requirements to ../../build/unicycle_controller/unicycle_controller.egg-info/requires.txt
+writing top-level names to ../../build/unicycle_controller/unicycle_controller.egg-info/top_level.txt
+reading manifest file '../../build/unicycle_controller/unicycle_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/unicycle_controller/unicycle_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniele/ros2_ws/build/unicycle_controller/build
+creating /home/daniele/ros2_ws/build/unicycle_controller/build/lib
+creating /home/daniele/ros2_ws/build/unicycle_controller/build/lib/unicycle_controller
+copying unicycle_controller/__init__.py -> /home/daniele/ros2_ws/build/unicycle_controller/build/lib/unicycle_controller
+running install
+running install_lib
+creating /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller
+copying /home/daniele/ros2_ws/build/unicycle_controller/build/lib/unicycle_controller/__init__.py -> /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller
+byte-compiling /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/unicycle_controller -> /home/daniele/ros2_ws/install/unicycle_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniele/ros2_ws/install/unicycle_controller/share/unicycle_controller
+running install_egg_info
+Copying ../../build/unicycle_controller/unicycle_controller.egg-info to /home/daniele/ros2_ws/install/unicycle_controller/lib/python3.10/site-packages/unicycle_controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/daniele/ros2_ws/build/unicycle_controller/install.log'
