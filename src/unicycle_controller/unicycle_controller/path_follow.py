@@ -52,7 +52,7 @@ class PathFollow(Node):
         # Internal state
         self.current_pose_ = None  # (x, y, yaw)
         self.path_ = []  # List of waypoints [(x1, y1), (x2, y2), ...]
-        self.lookahead_steps = 3 # Number of steps ahead for lookahead point
+        self.lookahead_steps = 2 # Number of steps ahead for lookahead point
 
         self.get_logger().info("Path control has been started.")
 
@@ -128,10 +128,10 @@ class PathFollow(Node):
             sign_angle = -1
 
         # Proportional control gains
-        k_linear = 0.6
+        k_linear = 0.4
         k_angular = 0.8
 
-        if angle_error <= 0.1:
+        if angle_error <= 0.05:
             k_e = 0
         else:
             k_e = 0.6

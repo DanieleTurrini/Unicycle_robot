@@ -37,7 +37,7 @@ class TrajectoryVisualizerGazebo(Node):
         self.publisher = self.create_publisher(Marker, 'trajectory_marker', 10)
         self.timer = self.create_timer(0.5, self.publish_marker)
 
-        self.scaling_factor = 4
+        self.scaling_factor = 2
 
         path = "/home/daniele/ros2_ws/src/unicycle_controller/unicycle_controller/trajectory.txt"
         #path = "trajectory.txt"
